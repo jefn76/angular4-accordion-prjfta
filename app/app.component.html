@@ -1,0 +1,15 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<app-accordion>
+  <app-accordion-item *ngFor="let item of accordionItems">
+    <div class="accordion-item-header">
+      {{ item.title }}
+    </div>
+    <div class="accordion-item-content">
+      {{ item.content }}
+    </div>
+  </app-accordion-item> 
+</app-accordion>
